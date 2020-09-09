@@ -1,0 +1,204 @@
+.App {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+.navbar{
+
+  color: #eee;
+  list-style-type: none;
+  background-color: wheat;
+  overflow:auto;
+}
+.navbarLogo{
+color: black;
+text-decoration: none;
+font-family: 'Shrikhand', cursive;
+font-size: 40px;
+padding: 10px;
+}
+.navbarLink{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 10px;
+  
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+}
+.navbar li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar li a:hover{
+  text-decoration: underline;
+}
+.dropdown-content {
+  position: absolute;
+  background-color: wheat;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+   border-radius: 15px;
+}
+.dropdown-content a {
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown a:hover {background-color: #ddd;}
+
+.Billboard{
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+}
+.cartIcon{
+  margin-top: 9px;
+  padding: 20px;
+  font-size: 20px;
+  float: right;
+}
+.cartIcon:hover{
+  text-decoration: underline;
+}
+.carousel{
+  margin-bottom: 20px;
+}
+.productImage{
+  height: 100%;
+  width: 100%;
+}
+
+.productColor{
+  margin-top: 3px;
+  margin-right: 3px;
+  float: left;
+  width: 25px;
+}
+.productColorContainer{
+  height: 30px;
+}
+
+.colorQuantity{
+  border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+
+.slick-dots {
+  margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+}
+.slick-next:before {
+
+color: black;
+}
+.slick-prev:before{
+  color: black;
+}
+.slick-slide > div {
+  padding: 0 2rem;
+}
+.FooterContainer1{
+  height: 100px;
+  border-top:solid 1px rgb(179, 179, 179);
+  margin-top:5px;
+}
+.footerList{ 
+  text-decoration: none;
+  float: left;
+  list-style-type: none;
+  font-size: 11px;
+}
+
+.footerSocial{
+  float: right;
+}
+.socialIcon{ 
+  margin-right: 5px;
+  font-size: 30px;
+  color: gray;
+  margin-top: 10px;
+}
+.textCenter{
+  text-align: center;
+}
+.FilterNav{
+  color: #eee;
+  list-style-type: none;
+  background-color: white;
+  overflow:auto;
+}
+.FilterNav ul {
+  list-style-type: none;
+   margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+}
+.FilterNav li{
+  float: left;
+  color: black;
+  margin: 3px; 
+}
+
+.FilterButtons{
+  height: 20px;
+  width: 70px;
+}
+.ProductList{
+
+  height: 1000px;
+  overflow-x: auto;
+  overflow-y: auto;
+  border-color: rgb(14, 14, 14);
+  border-radius: 15px;
+  width: auto;
+}
+.ProductContainer{
+  height:auto;
+  width: 280px;
+  float: left;
+  margin-top: 9px;
+  margin-left: 25px;
+  padding: 30px;
+  border-style: solid;
+  border-color: rgb(202, 202, 202);
+  border-width: .5px;
+}
+.AddToBtn{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: rgb(238, 216, 176);
+  border: none;
+  width: 100%;
+  margin-top: 5px;
+}
+.AddToBtn:hover {background-color: rgb(238, 204, 142)}
+
+.AddToBtn:active {
+  background-color: rgb(238, 216, 176);
+  transform: translateY(4px);
+}
+.CheckoutListContainer{
+  margin-top: 5px;
+}
+.CheckOutBtn{
+
+}
